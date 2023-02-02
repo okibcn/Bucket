@@ -1,5 +1,5 @@
 {
-    "version": "4.2023.01.31",
+    "version": "5.0",
     "description": "Compacts the size of the WSL images by removing unused empty space.",
     "homepage": "https://github.com/okibcn/wslcompact",
     "license": "GPL-3.0-only",
@@ -8,7 +8,7 @@
         "Visit https://github.com/okibcn/wslcompact for more information."
     ],
     "url": "https://raw.githubusercontent.com/okibcn/wslcompact/main/wslcompact.ps1",
-    "hash": "d34223c4748171e64c3d5164aa76a8c9e8b3eb413f801fe3e7db35c3da43703e",
+    "hash": "c264b5ac919d08991003cdf48b1fea927e92d74e4a604230b17a5ced210abdf4",
     "bin": "wslcompact.ps1",
     "checkver": {
         "url": "https://raw.githubusercontent.com/okibcn/wslcompact/main/wslcompact.ps1",
