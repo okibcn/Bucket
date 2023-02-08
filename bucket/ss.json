@@ -9,6 +9,7 @@
     ],
     "url": "https://github.com/okibcn/ss/releases/download/1.0/ss-v1.0.7z",
     "hash": "06e770d780cb2901bdf5ce3a389c6c8bc03ac58966ef24286a130e4aaf2b95be",
+    "depends": [ "7zip","aria2"],
     "bin": "ss.ps1",
     "pre_install": [
         "Move-Item \"$dir/ss/*\" $dir -Force"
