@@ -12,7 +12,8 @@
     "depends": [ "7zip","aria2"],
     "bin": "ss.ps1",
     "pre_install": [
-        "Move-Item \"$dir/ss/*\" $dir -Force"
+        "Move-Item \"$dir/ss/*\" $dir -Force",
+        "Remove-Item \"$dir/ss\" -Recurse -Force"
     ],
     "checkver": {
         "github": "https://api.github.com/repos/okibcn/ss",
