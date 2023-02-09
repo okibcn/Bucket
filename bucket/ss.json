@@ -1,5 +1,5 @@
 {
-    "version": "1.0",
+    "version": "2.01",
     "description": "Scoop Super Search, instantaneous results, UTF-8 and regex compatible. The fastest search engine for Scoop.",
     "homepage": "https://github.com/okibcn/ss",
     "license": "GPL-3.0-only",
@@ -7,9 +7,12 @@
         "Type ss -h before using it for the first time to learn how it works.",
         "Visit https://github.com/okibcn/ss for more information."
     ],
-    "url": "https://github.com/okibcn/ss/releases/download/1.0/ss-v1.0.7z",
-    "hash": "06e770d780cb2901bdf5ce3a389c6c8bc03ac58966ef24286a130e4aaf2b95be",
-    "depends": [ "7zip","aria2"],
+    "url": "https://github.com/okibcn/ss/releases/download/2.01/ss-v2.01.7z",
+    "hash": "cbe4eb572af4cfd4c0e16157bc1b4a81b3537ac24cec1577bfe7d786551b7ede",
+    "depends": [
+        "7zip",
+        "aria2"
+    ],
     "bin": "ss.ps1",
     "pre_install": [
         "Move-Item \"$dir/ss/*\" $dir -Force",
