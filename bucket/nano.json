@@ -1,7 +1,7 @@
 {
     "version": "7.2-10-10165",
     "description": "The legendary small and friendly GNU editor, UTF-8 and mouse ready for Windows CLI 32/64 bits",
-    "homepage": "https://www.nano-editor.org/",
+    "homepage": "https://github.com/okibcn/nano-for-windows",
     "license": "GPL-3.0-only",
     "notes": [
         "Configure nano interface, colors, key assignments and more by typing nano ~/.nanorc",
